@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --strip_sources=True --enable_nbextensions=True mlb-visualization.ipynb
+web: voila --port=$PORT --no-browser --strip_sources=True mlb-visualization.ipynb
