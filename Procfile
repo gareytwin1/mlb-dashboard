@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT --chdir notebooks voila.app:main --Voila.ip=0.0.0.0 --Voila.port=$PORT --Voila.base_url=/ --Voila.open_browser=False --Voila.strip_sources=True mlb-visualization.ipynb
+web: voila --port=$PORT --no-browser --strip_sources=True --Voila.ip=0.0.0.0 --Voila.base_url=/
